@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+         <!--Bootstrap, Copy-paste the stylesheet <link> into your <head> before all other stylesheets to load our CSS.-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!--Responsive meta tag-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
         <meta charset="utf-8"/>
         <meta name="keywords" content="kawaii, statinery, toys, japanese trends"/>
         <meta name="author" content="Opal Harrison" />
@@ -10,20 +15,50 @@
 
         <title>Magical Toyland: Kawaii Culture Trends</title>
         <link rel="stylesheet" type="text/css" href="/magicaltoyland.css">
+       <!--Bootstrap JS, Place the following <script>s near the end of your pages, right before the closing </body> tag, to enable them. jQuery must come first, then Popper.js, and then our JavaScript plugins.-->
+        
     </head>
 
 <body>
     <div class="header">
         <div class="container_12">
-           
-            <div class="grid_3">
-            <img src="https://www.logolynx.com/images/logolynx/00/003833919219724bd48eb6150b562ac7.png" alt="magical toyland's rainbow logo" width="440" height="291">
-            </div>
+           <!--from documentation-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="#">MTL Logo</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#">Kawaii News</a>
+                            </li>
+                            <li class="nav-item active">
+                                    <a class="nav-link" href="#">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Coming Soon</a>
+                            </li>
+                          </ul>
+                          <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                          </form>
+                        </div>
+                      </nav>
 
-            <div class="nav grid_7">
-                <a href="">home</a> / <a href="">news</a> / <a href="">connect</a> / <a href="">about me</a>
-            </div>
-        </div>
+    <div class="jumbotron">
+        <h1 class="display-4">Magical Toyland</h1>
+            <p class="lead">get all the news and updates on my blogs about toy trends and Japanese fashion</p>
+                <hr class="my-4">
+                    <p>Discover more on my Instagram</p>
+                        <p class="lead">
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Instagram</a>
+                        </p>
     </div>
 
     <div class="wrapper">
@@ -40,9 +75,23 @@ Elementum nisi quis eleifend quam adipiscing vitae. Ultrices sagittis orci a sce
             </div>
         
         </div>
-    </div><!--end of main intro-->
+    </div>
+    
+    <div class="card" style="width: 18rem;">
+            <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-09/28/0/campaign_images/webdr04/10-pictures-of-harajuku-girls-2-16021-1411880126-1_dblbig.jpg" class="card-img-top" alt="Kawaii Harajuku Girl">
+            <div class="card-body">
+              <h5 class="card-title">Kawaii Girl Feature</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              <a href="#" class="btn btn-primary">Read the article</a>
+            </div>
+          </div>
+    
+    <!--end of main intro-->
 
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
     </html>
